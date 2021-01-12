@@ -104,7 +104,7 @@ public class tictactoe {
             board[a] = String.valueOf(a + 1); 
         } 
   
-        System.out.println("Welcome to 3x3 Tic Tac Toe."); 
+        System.out.println("Welcome to Tic Tac Toe, let's play!"); 
         printBoard(); 
   
         System.out.println( 
@@ -153,17 +153,17 @@ public class tictactoe {
             } 
         } 
         
-        // If there is a draw between 'x' and '0' 
+        // If there is a draw between 'x' and 'O' 
         if (winner.equalsIgnoreCase("draw")) { 
             System.out.println( 
-                "It's a draw! Thanks for playing."); 
+                "Draw between both!!!!! Thanks for playing. Play again to win"); 
         } 
         
-        // For winner -to display Congratulations! message. 
+        // Congratulations! message to the winner 
         else { 
             System.out.println( 
                 "Congratulations! " + winner 
-                + "'s have won! Thanks for playing."); 
+                + "'s have won! Thanks for playing. Come back again"); 
         } 
     } 
 }
