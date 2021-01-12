@@ -1,4 +1,4 @@
-#Simple Tic-Tac-Toe program using Java between 2 players
+//Simple Tic-Tac-Toe program using Java between 2 players
 import java.util.*; 
   
 public class tictactoe { 
